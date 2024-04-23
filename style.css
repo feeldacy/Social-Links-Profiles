@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(10, 9, 9);
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.container {
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 75px;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-info h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.profile-info h3{
+    font-size: 11px;
+    color: rgb(162, 214, 83);
+    margin-bottom: 20px;
+}
+
+.profile-info h6{
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.social-links button{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 13px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 6px;
+    padding: 9px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.social-links button:hover {
+    background-color: rgb(162, 214, 83) ;
+    color: black;
+}
